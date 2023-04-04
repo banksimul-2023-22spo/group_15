@@ -1,0 +1,11 @@
+release/kirjauduulosui.o
+release/main.o
+release/mainwindow.o
+release/nostoui.o
+release/saldoui.o
+release/tiliui.o
+release/moc_kirjauduulosui.o
+release/moc_mainwindow.o
+release/moc_nostoui.o
+release/moc_saldoui.o
+release/moc_tiliui.o
