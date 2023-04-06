@@ -8,7 +8,8 @@ menuUI::menuUI(QWidget *parent) :
     ui->setupUi(this);
     setWindowTitle("main menu");
 
-    connect(ui->saldo,SIGNAL(clicked(bool)),
+
+        connect(ui->saldo,SIGNAL(clicked(bool)),
                     this, SLOT(saldoClickHandler()));
 
         //pSaldoUI = new saldoUI(this);
@@ -25,6 +26,7 @@ menuUI::menuUI(QWidget *parent) :
 
         connect(ui->ulos,SIGNAL(clicked(bool)),
                     this, SLOT(kirjauduUloshandler()));
+
 
 }
 
@@ -52,4 +54,16 @@ void menuUI::kirjauduUloshandler()
 {
     close();
     //login->open();
+}
+
+void menuUI::timeoutHandler()
+{
+    aika++;
+    if (aika >= 5000){
+        close();
+    }
+}
+
+void menuUI::loginSlot(QNetworkReply *reply)
+{
 }

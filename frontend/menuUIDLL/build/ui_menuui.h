@@ -30,7 +30,7 @@ public:
     {
         if (menuUI->objectName().isEmpty())
             menuUI->setObjectName(QString::fromUtf8("menuUI"));
-        menuUI->resize(480, 306);
+        menuUI->resize(480, 308);
         tili = new QPushButton(menuUI);
         tili->setObjectName(QString::fromUtf8("tili"));
         tili->setGeometry(QRect(0, 110, 481, 41));
