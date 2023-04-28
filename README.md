@@ -2,6 +2,8 @@ Bank Simulator
 
 A first-year project for Oulu University of Applied Sciences' ["Software Developement Application Project" -course](https://www.oamk.fi/opinto-opas/en/content-of-studies/curricula?koulutus=tvt2023k-ohj&lk=k2023&alasivu=opintojakso&kieli=en&oj=IN00CS90_en). By [Santtu Niskanen](https://github.com/santtuniskanen), [Saku Roininen](https://github.com/SakRoi), [Joonas Ridanpää](https://github.com/JnsRdnp), and [Lauri Tuovinen](https://github.com/LauriTuovinen).
 
+![GitHub last commit](https://img.shields.io/github/last-commit/SakRoi/Bank_Simulator) 
+
 ## Description
 
 Bank Simulator is software made to simulate a real-life bank ATM. This project includes a frontend written in C++ and QT, a backend written in JavaScript (using express framework), and a MySQL database. 
@@ -76,7 +78,7 @@ In the "main menu", the user can choose to see their balance (saldo), withdraw m
 * The software's installation is cumbersome and would be helped by an installer for the QT fronted.
 
 ## License
-
+![License](https://img.shields.io/github/license/SakRoi/Bank_Simulator)
 
 ## Acknowledgements
 
